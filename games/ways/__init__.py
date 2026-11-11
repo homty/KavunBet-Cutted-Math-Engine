@@ -1,0 +1,1 @@
+"""KavunBet ways game implementation."""

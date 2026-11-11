@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.prof
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Generated simulation artifacts
+**/library/
+**/configs/
+**/forces/
+**/books/
+**/lookup_tables/
+**/books_compressed/
+**/temp_multi_threaded_files/
+
+# Tool output
+site/
+target/
+debug/
+release/
+
+# OS/editor files
+.DS_Store
+
